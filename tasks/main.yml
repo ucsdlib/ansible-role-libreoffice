@@ -1,0 +1,8 @@
+---
+# tasks file for ucsdlib.libreoffice
+
+- name: Install LibreOffice
+  package:
+    name: libreoffice
+    state: present
+  become: true
